@@ -2,7 +2,8 @@
 Shows telegram .webm links as videos
 
 
-> Paste on the console or create a tampermonkey script
+## How to use
+* Paste on the console or create a tampermonkey script
 ```javascript
 setInterval(() => {
   var textNodes = document.getElementsByClassName("im_message_text");
@@ -30,3 +31,5 @@ setInterval(() => {
 }, 3000);
 
 ```
+
+> whoosh, basic js
