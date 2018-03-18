@@ -3,7 +3,7 @@ Shows telegram .webm links as videos
 
 
 ## How to use
-* Paste on the console or create a tampermonkey script
+* Paste on the console or add the tampermonkey script
 ```javascript
 setInterval(() => {
   var textNodes = document.getElementsByClassName("im_message_text");
