@@ -19,6 +19,7 @@
     if (
       textNode.firstChild != null &&
       textNode.firstChild.href != undefined &&
+      !textNode.firstChild.hasAlreadyBeenUpdated &&
       textNode.firstChild.href.indexOf(".webm") != -1
     )
       webmTextNodes.push(textNode.firstChild);
